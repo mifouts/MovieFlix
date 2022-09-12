@@ -67,6 +67,10 @@ section {
     width: 100%;
 }
 
+.red {
+    color: red;
+}
+
 /* NAV BAR */
 
 nav {
