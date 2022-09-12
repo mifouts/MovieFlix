@@ -122,11 +122,56 @@ nav {
 
 .landing__container {
     width: 100%;
-  background-color: rgba(36, 36, 36, 0.4);
-  padding: 100px 80px;
-  height: calc(100% + 80px);
-  top: -80px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
+    background-color: rgba(36, 36, 36, 0.4);
+    padding: 100px 80px;
+    height: calc(100% + 80px);
+    top: -80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
+
+.movieflix__title {
+    margin-top: 180px;
+    font-size: 100px;
+    height: min-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.movieflix__description {
+    font-size: 26px;
+    max-width: 600px;
+    margin-top: 40px;
+    color: #f8f8f8;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .movieflix__input {
+    background-color: rgba(36, 36, 36, 0.5);
+    height: 50px;
+    width: 100%;
+    margin-right: 20px;
+    outline: none;
+    border: 2px solid #f8f8f8;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #f8f8f8;
+  }
+
+  .movieflix__input::placeholder{
+    color: #f8f8f8;
+  }
+
+  .movieflix__search {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    max-width: 580px;
+    width: 100%;
+    padding: 10px;
+  }
