@@ -122,7 +122,6 @@ nav {
 
 .landing__container {
     width: 100%;
-    background-color: rgba(36, 36, 36, 0.4);
     padding: 100px 80px;
     height: calc(100% + 80px);
     top: -80px;
@@ -138,19 +137,18 @@ nav {
     display: flex;
     justify-content: start;
     align-items: center;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px black;
 }
 
 .movieflix__description {
     font-size: 26px;
     max-width: 600px;
     margin-top: 40px;
-    color: #f8f8f8;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    color: black;
   }
 
   .movieflix__input {
-    background-color: rgba(36, 36, 36, 0.5);
+    background-color: black;
     height: 50px;
     width: 100%;
     margin-right: 20px;
@@ -174,4 +172,20 @@ nav {
     max-width: 580px;
     width: 100%;
     padding: 10px;
+  }
+
+  .search {
+    margin-right: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms all ease;
+    }
+
+  .submit__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
   }
