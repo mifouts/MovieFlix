@@ -190,6 +190,7 @@ nav {
     justify-content: center;
     align-items: center;
     transition: 300ms all ease;
+    
     }
 
   .submit__button{
@@ -197,4 +198,5 @@ nav {
     justify-content: center;
     align-items: center;
     border: none;
+    background-color: transparent;
   }
