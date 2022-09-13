@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-a:hover a:focus {
+nav ul li a:hover {
     cursor: none;
 }
 
