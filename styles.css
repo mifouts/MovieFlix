@@ -10,8 +10,21 @@ html {
     scroll-behavior: smooth;
 }
 
-.click {
+.nav__click {
     cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.nav__click:hover {
+    transform: scale(1.1);
+}
+
+.nav__click:active {
+    transform: scale(0.8);
+}
+
+.click {
+    cursor:default;
     transition: all 300ms ease;
 }
 
