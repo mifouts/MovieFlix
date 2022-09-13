@@ -119,9 +119,16 @@ nav {
 
 .nav__link--anchor {
     font-size: 16px;
-    color: #242424;
-    font-weight: 700;
-    cursor: none;
+    color: white;
+    font-weight: bolder;
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    border: solid red;
+    padding: 12px 32px;
+    background-color: red;
 }
 
 /* LANDING PAGE */
