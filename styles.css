@@ -85,6 +85,13 @@ button {
     color: red;
 }
 
+.img__placeholder {
+    background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-color: white;
+  background-image: url(./assets/backgroundimg.png);
+}
+
 /* NAV BAR */
 
 nav {
