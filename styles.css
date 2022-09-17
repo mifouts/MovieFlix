@@ -131,6 +131,16 @@ nav {
     background-color: red;
 }
 
+/* MOVIES */
+
+.movie__container {
+    display: flex;
+}
+
+
+
+
+
 /* LANDING PAGE */
 
 .landing__container {
