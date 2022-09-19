@@ -1,8 +1,8 @@
 //https://www.omdbapi.com/?apikey=3c851f46&s=fast
 
 
-const moviesContainerEl = document.querySelector('.movie__container');
-const landingContainerEl = document.querySelector('.landing__container');
+const moviesContainerEl = document.querySelector(".movie__container");
+const landingContainerEl = document.querySelector(".landing__container");
 
 
 async function searchBarForm(event) {
