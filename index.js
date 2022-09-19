@@ -5,9 +5,11 @@ const moviesContainerEl = document.querySelector('.movie__container');
 const landingContainerEl = document.querySelector('.landing__container');
 
 
-async function searchBarForm (event) {
+async function searchBarForm(event) {
     const formValue = event.target.value;
-    const movie = await fetch(`https://www.omdbapi.com/?apikey=3c851f46&s=${formValue}`);
+    const movie = await fetch(
+        `https://www.omdbapi.com/?apikey=3c851f46&s=${formValue}`
+        );
 
     const movieData = await movie.json();
     if (!movieData.Search) {
