@@ -41,8 +41,4 @@ function moviesHTML(movie) {
 </div>`;
 }
 
-function goBack() {
-    moviesContainerEl.style.display = "none";
-    landingContainerEl.style.display = "block";
-    goBackEl.style.display = "none";
-}
+
