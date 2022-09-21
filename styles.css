@@ -311,3 +311,14 @@ nav {
   }
 
 
+@media (max-width: 1200px) {
+    .movie__container{
+        width: calc(100% / 2);
+    }
+
+    .movies__container {
+        display: list-item;
+    }
+}
+
+
