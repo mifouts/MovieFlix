@@ -20,7 +20,9 @@ async function searchBarForm(event) {
         moviesContainerEl.style.display = "flex";
         landingContainerEl.style.display = "none";
     }
-    moviesContainerEl.innerHTML = movieData.Search.slice(0, 6).map((movie) => moviesHTML(movie)).join("");
+    moviesContainerEl.innerHTML = movieData.Search.slice(0, 6)
+    .map((movie) => moviesHTML(movie))
+    .join("");
 
     event.preventDefault();
 }
