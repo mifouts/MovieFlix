@@ -177,9 +177,9 @@ nav {
     height: 100%;
     margin: 100px 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 20px 20px 20px 70px;
     border-radius: 20px;
     display: none;
@@ -191,8 +191,11 @@ nav {
 }
 
 .movie {
-    width: 100%;
+    width: calc(100% / 3);
     height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -213,8 +216,7 @@ nav {
 }
 
 .movie__title {
-    font-weight: 900;
-    font-size: 32px;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,10 +316,6 @@ nav {
 @media (max-width: 1200px) {
     .movie__container{
         width: calc(100% / 2);
-    }
-
-    .movies__container {
-        display: list-item;
     }
 }
 
