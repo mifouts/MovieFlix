@@ -3,7 +3,7 @@
 
 const moviesContainerEl = document.querySelector(".movies__container");
 const landingContainerEl = document.querySelector(".landing__container");
-
+const goBackEl = document.querySelector(".go__back--button");
 
 async function searchBarForm(event) {
     const formValue = event.target.value;
@@ -39,4 +39,10 @@ function moviesHTML(movie) {
         </div>
     </div>
 </div>`;
+}
+
+function goBack() {
+    moviesContainerEl.style.display = "none";
+    landingContainerEl.style.display = "block";
+    goBackEl.style.display = "none";
 }

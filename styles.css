@@ -93,6 +93,43 @@ button {
   background-image: url(./assets/backgroundimg.png)
 }
 
+/* Go Back Button */
+
+.fa-arrow-left{
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go__back--button {
+  display: none;
+  align-items: center;
+  padding: 8px 24px;
+  z-index: 9999;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  transition: all 300ms ease;
+}
+
+.go__back--button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.go__back--text {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go__back--text:hover {
+    cursor: pointer;
+}
+
 /* NAV BAR */
 
 nav {
@@ -271,3 +308,5 @@ nav {
     border: none;
     background-color: transparent;
   }
+
+
