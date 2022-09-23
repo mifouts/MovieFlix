@@ -4,6 +4,7 @@
 const moviesContainerEl = document.querySelector(".movies__container");
 const landingContainerEl = document.querySelector(".landing__container");
 const goBackEl = document.querySelector(".go__back--button");
+const loading = document.querySelector(".movie__overlay--loading");
 
 async function searchBarForm(event) {
     const formValue = event.target.value;
@@ -42,3 +43,9 @@ function moviesHTML(movie) {
 }
 
 
+function loadingMovies(event){
+    loading.classList += " movie__overlay--visible";
+    setTimeout(() => 
+    {loading.classList.remove("movie__overlay--visible");
+    }, 200);
+}

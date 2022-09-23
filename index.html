@@ -103,7 +103,7 @@
                 <span class="red">MOVIEFLIX</span>
             </h1>
             <h3 class="movieflix__description click">Find the perfect movie for you!</h3>
-            <form class="movieflix__search" onsubmit="return false;">
+            <form class="movieflix__search" onsubmit="loadingMovies(event)">
             <input type="text" class="movieflix__input" placeholder="Movie Name" onchange="searchBarForm(event)" autofocus>
             <button class="submit__button nav__click" type="submit" onclick="searchBarForm(event)">
                 <i class="fa-solid fa-magnifying-glass search">
