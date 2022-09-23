@@ -289,4 +289,12 @@ nav {
     }
 }
 
+@media (max-width: 768px) {
+    .img__placeholder {
+        background-attachment: fixed;
+    }
+
+    
+}
+
 
