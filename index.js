@@ -44,8 +44,9 @@ function moviesHTML(movie) {
 
 
 function loadingMovies(event){
+    event.preventDefault();
     loading.classList += " movie__overlay--visible";
-    setTimeout(() => 
-    {loading.classList.remove("movie__overlay--visible");
+    setTimeout(() => {
+        loading.classList.remove("movie__overlay--visible");
     }, 200);
 }
