@@ -52,3 +52,4 @@ function loadingMovies(event){
         success.classList += " movie__overlay--visible";
     }, 200);
 }
+
