@@ -13,7 +13,7 @@ function loadingMovies(event){
     setTimeout(() => {
         loading.classList.remove("movie__overlay--visible");
         success.classList += " movie__overlay--visible";
-    }, 200);
+    }, 2000);
 }
 
 
