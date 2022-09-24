@@ -7,6 +7,16 @@ const goBackEl = document.querySelector(".go__back--button");
 const loading = document.querySelector(".movie__overlay--loading");
 const success = document.querySelector(".movie__overlay--success");
 
+function loadingMovies(event){
+    event.preventDefault();
+    loading.classList += " movie__overlay--visible";
+    setTimeout(() => {
+        loading.classList.remove("movie__overlay--visible");
+        success.classList += " movie__overlay--visible";
+    }, 200);
+}
+
+
 async function searchBarForm(event) {
     const formValue = event.target.value;
     const movie = await fetch(
@@ -44,12 +54,4 @@ function moviesHTML(movie) {
 }
 
 
-function loadingMovies(event){
-    event.preventDefault();
-    loading.classList += " movie__overlay--visible";
-    setTimeout(() => {
-        loading.classList.remove("movie__overlay--visible");
-        success.classList += " movie__overlay--visible";
-    }, 200);
-}
 
