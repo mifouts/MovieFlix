@@ -7,9 +7,9 @@ const goBackEl = document.querySelector(".go__back--button");
 const loading = document.querySelector(".movie__overlay--loading");
 const success = document.querySelector(".movie__overlay--success");
 
-async function loadingMovies(event){
+function loadingMovies(event){
     event.preventDefault();
-    await loading.classList += " movie__overlay--visible";
+    loading.classList += " movie__overlay--visible";
     setTimeout(() => {
         loading.classList.remove("movie__overlay--visible");
     }, 2000);
