@@ -12,7 +12,6 @@ function loadingMovies(event){
     loading.classList += " movie__overlay--visible";
     setTimeout(() => {
         loading.classList.remove("movie__overlay--visible");
-        success.classList += " movie__overlay--visible";
     }, 2000);
 }
 
